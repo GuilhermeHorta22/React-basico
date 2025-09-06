@@ -26,7 +26,7 @@ function App()
       const data = await response.json();  //pegando os dados que ela retorna
       setTasks(data); //armazenando / persistindo os dados que foi retornado
     }
-    fetchTask(); //se voce quiser chamar uma API 
+    //fetchTask(); //se voce quiser chamar uma API 
   }, []);
 
   //function chamada para alterar os estado do nosso button de task
