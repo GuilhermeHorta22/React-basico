@@ -1,8 +1,31 @@
-# React + Vite
+# 🚀 Projeto de Estudos em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório foi desenvolvido com o objetivo de praticar e aprender os conceitos básicos do **React**, incluindo componentes, estados, propriedades e integração com APIs externas.  
 
-Currently, two official plugins are available:
+Como exemplo, foi utilizada a [JSONPlaceholder](https://jsonplaceholder.typicode.com/), uma API pública gratuita para testes e prototipagem.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📚 Conteúdo do Projeto
+
+- Fundamentos do React: criação de componentes funcionais.  
+- Utilização de **props** e **state**.  
+- Consumo de dados da API **JSONPlaceholder** com `fetch`.  
+- Renderização condicional e mapeamento de listas.  
+- Estrutura simples para treinar a organização do código.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)  
+- [Vite](https://vitejs.dev/)  
+- HTML e CSS  
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/GuilhermeHorta22/React-basico.git
