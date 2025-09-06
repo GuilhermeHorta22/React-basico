@@ -1,0 +1,19 @@
+Function -> voce cria para conseguir exportar ela para outras classes
+
+variavel -> voce pode criar variaveis com valores e exibir elas dentro do html
+
+return -> voce cria ele e coloca componentes html para ser rendenizados
+só podemos retornar um elemento por vez dentro de um return. não podemos retornar
+duas div
+
+{} -> usa como formatação par exibir as mensagens dentro do html. Ex: <h1>{message}</h1>
+    message seria uma variavel com um valor
+sempre que vamos usar as chaves para acessar conteudo javascript
+
+componentes -> todos os componentes devem começar com letras maiuscula
+
+jsx -> é a junção do html com o javascript para criar nossas telas
+
+state -> quando voce muda o state sua interface é alterada
+
+export default -> indica que podemos importar aquela classe para outra
