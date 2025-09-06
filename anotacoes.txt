@@ -17,3 +17,6 @@ jsx -> é a junção do html com o javascript para criar nossas telas
 state -> quando voce muda o state sua interface é alterada
 
 export default -> indica que podemos importar aquela classe para outra
+
+className -> serve para voce chamar uma classe feita no css para seu html usando
+react
