@@ -28,4 +28,4 @@ Como exemplo, foi utilizada a [JSONPlaceholder](https://jsonplaceholder.typicode
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/GuilhermeHorta22/React-basico.git
