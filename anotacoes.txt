@@ -11,6 +11,8 @@ duas div
 sempre que vamos usar as chaves para acessar conteudo javascript
 
 componentes -> todos os componentes devem começar com letras maiuscula
+    Eu consigo criar um componente igual eu fiz com o Input para ser chamado e nele eu ter uma formatação fixa, já que eu posso
+    ter varias chamada de um mesmo componente e quando eu quiser mudar a estilização eu vou mudar apenas uma unica vez para todos
 
 jsx -> é a junção do html com o javascript para criar nossas telas
 

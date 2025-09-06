@@ -2,11 +2,12 @@ import { useEffect, useState} from 'react';
 import Tasks from './components/Tasks.jsx';
 import AddTasks from './components/AddTasks.jsx';
 import { v4 } from 'uuid'; //biblioteca para sortear valores para nosso ID
+import Title from "./components/Title.jsx"
 
 function App()
 {
   //adicionando e mantendo os dados antigos na nossa lista
-  const [tasks, setTasks] = useState(
+  const [tasks, setTasks] = useState( 
     JSON.parse(localStorage.getItem("tasks")) || []
   );
 
@@ -25,7 +26,7 @@ function App()
       const data = await response.json();  //pegando os dados que ela retorna
       setTasks(data); //armazenando / persistindo os dados que foi retornado
     }
-    //fetchTask(); //se voce quiser chamar uma API 
+    fetchTask(); //se voce quiser chamar uma API 
   }, []);
 
   //function chamada para alterar os estado do nosso button de task
@@ -63,7 +64,7 @@ function App()
   return(
     <div className="w-screen h-screen bg-slate-900 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <h1 className="text-3xl text-slate-100 font-bold text-center" >Gerenciador de tarefas</h1>
+        <Title >Gerenciador de tarefas</Title>
         <AddTasks onAddTaskSubmit={onAddTaskSubmit}
         
         />
